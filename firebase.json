@@ -1,0 +1,41 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "roommate-app-2a6ab",
+          "appId": "1:828142484720:android:f509f5601ef03e04221635",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "roommate-app-2a6ab",
+          "configurations": {
+            "android": "1:828142484720:android:f509f5601ef03e04221635",
+            "ios": "1:828142484720:ios:253d073ebee3bc83221635",
+            "web": "1:828142484720:web:698fac50472e6c63221635"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}
